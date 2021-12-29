@@ -1,1 +1,1 @@
-# cloudformation-lab04
+# AWS EC2 INSTANCE WITH VPC (MODULARIZED)
