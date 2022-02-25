@@ -1,4 +1,4 @@
-# AWS Single EC2 instance with EBS
+# AWS Single EC2 instance with using Terraform modules
 
 This project aims to deploy a single EC2 instance with a EBS volume attached.
 
@@ -20,8 +20,6 @@ Terraform manages AWS infrastructure deploymenet.
 * 1 x Public subnets
 * 1 x Internet Gateway
 * 1 x EC2
-* 1 x EBS
-* 1 x EBS attachment
 * 1 x Security Groups
 
 **Getting started**
@@ -52,7 +50,6 @@ Deploy the code in your AWS account with Terraform
 |-- computing_ec2.tf        # EC2 instances setting
 |-- security.tf             # Security groups
 |-- ssh_keys.tf             # EC2 public key
-|-- ebs.tf                  # EBS volume and attachment
 |-- variables.tf            # Variables
 |-- output.tf               # Output values
 |-- diagram01.jpeg          # AWS network layout
